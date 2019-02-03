@@ -9,6 +9,12 @@ body {
     animation: animate_background 2s linear 0s infinite;
     transition: background .5s;
     z-index: -1;
+    color: #FFF;
+}
+
+.jumbotron {
+    border-color: #007bff !important;
+    border-bottom: 2px dashed;
 }
 
 @-webkit-keyframes animate_background {
