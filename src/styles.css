@@ -1,58 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #151515;
-    background-image: url(./assets/layout.png);
-    background-repeat: repeat;
-    -webkit-animation: animate_background 2s linear 0s infinite;
-    -moz-animation: animate_background 2s linear 0s infinite;
-    -o-animation: animate_background 2s linear 0s infinite;
-    animation: animate_background 2s linear 0s infinite;
-    transition: background .5s;
-    z-index: -1;
-    color: #FFF;
+  background-color: #151515;
+  background-image: url(./assets/layout.png);
+  background-repeat: repeat;
+  -webkit-animation: animate_background 2s linear 0s infinite;
+  -moz-animation: animate_background 2s linear 0s infinite;
+  -o-animation: animate_background 2s linear 0s infinite;
+  animation: animate_background 2s linear 0s infinite;
+  transition: background .5s;
+  z-index: -1;
+  color: #FFF;
 }
 
 .jumbotron {
-    border-color: #007bff !important;
-    border-bottom: 2px dashed;
+  border-color: #007bff !important;
+  border-bottom: 2px dashed;
+}
+
+.avatar_img {
+  border-color: #007bff !important;
+  border: 3px dashed;
+  border-radius: 100%;
+}
+
+.btn-primary {
+  margin: 10px;
+  background-color: rgb(0, 0, 0, 0) !important;
+  border-radius: 0;
+}
+
+.card {
+  margin: 10px;
+  background-color: rgb(0, 0, 0, 0) !important;
+  border-radius: 0;
+  border: 0;
+}
+
+.list-group-item {
+  background-color: rgb(0, 0, 0, 0) !important;
+  border: 0;
 }
 
 @-webkit-keyframes animate_background {
-    from {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 0 0;
+  }
 
-    to {
-        background-position: -200px -200px;
-    }
+  to {
+    background-position: -200px -200px;
+  }
 }
 
 @-moz-keyframes animate_background {
-    from {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 0 0;
+  }
 
-    to {
-        background-position: -200px -200px;
-    }
+  to {
+    background-position: -200px -200px;
+  }
 }
 
 @-o-keyframes animate_background {
-    from {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 0 0;
+  }
 
-    to {
-        background-position: -200px -200px;
-    }
+  to {
+    background-position: -200px -200px;
+  }
 }
 
 @keyframes animate_background {
-    from {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 0 0;
+  }
 
-    to {
-        background-position: -200px -200px;
-    }
+  to {
+    background-position: -200px -200px;
+  }
 }
