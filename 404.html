@@ -10,11 +10,18 @@
     crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.47283b931eda6508cbb9.css"></head>
+  <script>
+    var nua = navigator.userAgent;
+    var is_android = ((nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1) && !(nua.indexOf('Chrome') > -1));
+    if(is_android) {
+        $('select.form-control').removeClass('form-control').css('width', '100%');
+    }
+    </script>
+<link rel="stylesheet" href="styles.c9810e95764e03bc90b9.css"></head>
 
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.b57bf819d5bdce77f1c7.js"></script><script type="text/javascript" src="es2015-polyfills.0d4f876df327d0111ca2.js" nomodule></script><script type="text/javascript" src="polyfills.f1a86b50434b1a515c5a.js"></script><script type="text/javascript" src="main.1f646c4fefbd9c18facc.js"></script></body>
+<script type="text/javascript" src="runtime.b57bf819d5bdce77f1c7.js"></script><script type="text/javascript" src="es2015-polyfills.0d4f876df327d0111ca2.js" nomodule></script><script type="text/javascript" src="polyfills.f1a86b50434b1a515c5a.js"></script><script type="text/javascript" src="main.75ec3869eef569f726f7.js"></script></body>
 <footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
